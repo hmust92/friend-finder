@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Survey</title>
+
+<!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+  <div class="container">
+  
+    <h1>Survey Questions</h1>
+    <hr>
+    <form role="form" id="survey">
+      <h2>About you</h2>
+      <div class="form-group">
+        <label for="user">Name: (Required)</label>
+        <input type="text" class="form-control" id="name">
+      </div>
+      <div class="form-group">
+        <label for="image">Link to Photo Image (Required)</label>
+        <input type="text" class="form-control" id="image">
+      </div>
+      <hr>
+
+      <div class="row col-lg-12">
+        <h3>Key</h3>
+        <p> 1 - Strongly Disagree.</p>
+        <p> 2 - Disagree.</p>
+        <p> 3 - Neutral. </p>
+        <p> 4 - Agree. </p>
+        <p> 5 - Strongly Agree. </p>
+      </div>
+
+      <div class="row col-lg-12">
+        <h3>Question 1</h3>
+        <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="question1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row col-lg-12">
+        <h3>Question 2</h3>
+        <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="question2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row col-lg-12">
+        <h3>Question 3</h3>
+        <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="question3">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row col-lg-12">
+        <h3>Question 4</h3>
+        <h4>You rarely do something just out of sheer curiosity.</h4>
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="question4">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row col-lg-12">
+        <h3>Question 5</h3>
+        <h4>People can rarely upset you.</h4>
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="question5">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row col-lg-12">
+        <h3>Question 6</h3>
+        <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="question6">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row col-lg-12">
+        <h3>Question 7</h3>
+        <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="question7">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row col-lg-12">
+        <h3>Question 8</h3>
+        <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="question8">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row col-lg-12">
+        <h3>Question 9</h3>
+        <h4>You feel more energetic after spending time with a group of people.</h4>
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="question9">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row col-lg-12">
+        <h3>Question 10</h3>
+        <h4>You rarely get carried away by fantasies and ideas.</h4>
+        <div class="form-group col-xs-3">
+          <select class="form-control" id="question10">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <button type="button" class="btn-survey" id="submit">Submit</button>
+  
+    </form>
+
+  
+  <div class="modal fade" id="friend-modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+<script type="text/javascript">
+
+$('#submit').on("click", function(){
+
+  var validEntry;
+
+  if($("#name").val().trim() === ''){
+    alert('Please enter a name');
+  }
+  else if($("#image").val().trim() === ''){
+    alert('Please enter a link to photo');
+  }
+
+  else{
+ 
+    var userArray = [];
+
+    for(i=1; i<11; i++){
+      userArray.push(parseInt($('#question' + i).val()));
+    }
+
+    var newUserEntry = 
+    {
+    name: $("#name").val().trim(),
+    photo: $("#image").val().trim(),
+    scores: userArray
+    };
+
+    var currentURL = window.location.origin;
+
+    $.post(currentURL + "/api/friends", newUserEntry,
+    function(data){});
+
+    $.get( currentURL + "/api/friends" , function( response ){
+
+      var bestMatch;
+      var currentBest = 100;
+      var arrayForDifference = [];
+
+      for(i=0; i < response.length - 1; i++){
+
+        for(j=0; j<10; j++){
+          var currentDifference = newUserEntry.scores[j] - response[i].scores[j];
+          arrayForDifference.push(Math.abs(currentDifference));
+        }
+
+        var difference = arrayForDifference.reduce(add, 0);
+
+        if(difference < currentBest){
+          bestMatch = response[i];
+          currentBest = difference;
+          arrayForDifference = [];
+        }
+
+        else{
+          arrayForDifference =[];
+        }
+
+      }
+
+      var friendName = '<h4>' + bestMatch.name + '<h4>';
+      var friendimage = '<img width="300px" src=' + bestMatch.photo + '>';
+
+      $('#friend-modal').modal('show');
+      $('#friend-modal h4').html(friendName);
+      $('.modal-body').html(friendimage);
+
+      $('#survey')[0].reset();
+
+    });
+  }
+  return false;
+});
+function add(a, b){
+  return a+b;
+};
+</script>
+</body>
