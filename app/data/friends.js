@@ -1,11 +1,11 @@
 var friends = [
 	{
 		name: 'Batman',
-		picture: 'http://www.legobatman.com/assets/media/global/header/batwink-loop.gif',
+		picture: 'https://www.legobatman.com/assets/media/global/header/batwink-loop.gif',
 		scores: [4, 5, 5, 4, 1, 4, 5, 3, 1, 3]
 	},{
 		name: 'Supergirl',
-		photo: 'http://www.comicbookherald.com/wp-content/uploads/2016/12/dc-rebirth-supergirl.jpg',
+		photo: 'https://www.comicbookherald.com/wp-content/uploads/2016/12/dc-rebirth-supergirl.jpg',
 		scores: [5, 2, 3, 5, 4, 1, 3, 5, 4, 5]
 	},{
 		name: 'Captain America',
