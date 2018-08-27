@@ -10,6 +10,6 @@ After that, go into the directory, open your terminal and and write ```npm insta
 
 Once that is complete, in the terminal write ```node server.js```
 
-Open your browser and write **http://localhost:8080**, and the application will start. 
+Open your browser and write "http://localhost:8080", and the application will start. 
 
 Enjoy!
