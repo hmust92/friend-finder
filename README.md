@@ -13,3 +13,7 @@ Once that is complete, in the terminal write ```node server.js```
 Open your browser and write ```http://localhost:8080```, and the application will start. 
 
 Enjoy!
+
+An example gif:
+
+![alt image](https://github.com/hmust92/readmeGifsandnothingelse/blob/master/GifDisplay.gif)
